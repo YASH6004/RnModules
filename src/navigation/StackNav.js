@@ -6,6 +6,9 @@ import Login from '../screens/Login';
 
 const Stack = createNativeStackNavigator();
 const StackNav = () => {
+
+    const [hasToken, setHasToken] = useState(false)
+
     return (
         <Stack.Navigator>
             <Stack.Screen name="Bottomnav" component={BottomNav}
