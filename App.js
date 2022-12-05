@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, FlatList } from 'react-native'
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 
-//REDUX
+// REDUX
 import { Provider } from 'react-redux'
 import store from './src/redux/store';
 

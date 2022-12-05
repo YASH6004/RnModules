@@ -9,4 +9,4 @@ const middleware = [logger,thunk]
 
 const store =createStore(rootReducer,applyMiddleware(...middleware))
 
-export default store;
+export default store; 

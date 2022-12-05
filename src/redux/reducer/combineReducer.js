@@ -1,16 +1,8 @@
 import { combineReducers } from 'redux';
-import pageReducer from './loginReducer/loginreducer';
-// const rootReducer = ()=>combineReducers({
-// //   changeTheNumber,
-// //   changeThePrice,
-// //   cartReducer,
-// //   favReducer,
-// });
+import { userReducer } from './userReducer';
 
-// export default rootReducer;
-
-
-const rootReducer = combineReducers(
-    { pageList: pageReducer }
+const rootReducer = combineReducers({
+    userList: userReducer,
+}
 );
 export default rootReducer;
